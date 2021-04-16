@@ -1,0 +1,40 @@
+body{
+  font-family: "돋움";
+  font-size: 12px;
+  color: #444444;
+}
+#date{
+  margin: 10px 0 0 210px;
+  font-size: 14px;
+}
+#date li{
+  display: inline;
+}
+#sched_tbl{
+  border-collapse: collapse;
+  border-top: solid 2px #aaaaaa;
+  margin-top: 15px;
+}
+#sched_tbl td{
+  border: solid 1px #aaaaaa;
+}
+#sched_tbl tr{
+  height: 60px;
+  vertical-align: top;
+}
+#sched_tbl td{
+  width: 76px;
+  padding: 5px;
+}
+#sched_tbl tr#day{
+  height: 20px;
+  background-color: #f8f9f2;
+  text-align: center;
+  font-weight: bold;
+}
+#sched_tbl .red{
+  color: #ff0000;
+}
+#sched_tbl .blue{
+  color: #0000ff;
+}
